@@ -5,6 +5,10 @@
         "This file is @generated automatically"
     ],
     "content-hash": "fb996eaf91f5c49625cc0cd231773624",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d5bca48e56bbf3a25645858fcab9c285",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -818,6 +822,7 @@
             "time": "2017-06-19T01:22:40+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "namshi/jose",
             "version": "7.2.3",
             "source": {
@@ -881,6 +886,8 @@
             "time": "2016-12-05T07:27:31+00:00"
         },
         {
+=======
+>>>>>>> 6c4bcacf8160131a3881105f3aa6041c86f4b965
             "name": "nesbot/carbon",
             "version": "1.25.0",
             "source": {
@@ -1928,6 +1935,7 @@
             "time": "2018-04-26T10:06:28+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/polyfill-php56",
             "version": "v1.8.0",
             "source": {
@@ -1984,6 +1992,8 @@
             "time": "2018-04-26T10:06:28+00:00"
         },
         {
+=======
+>>>>>>> 6c4bcacf8160131a3881105f3aa6041c86f4b965
             "name": "symfony/polyfill-php72",
             "version": "v1.8.0",
             "source": {
@@ -2039,6 +2049,7 @@
             "time": "2018-04-26T10:06:28+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/polyfill-util",
             "version": "v1.8.0",
             "source": {
@@ -2091,6 +2102,8 @@
             "time": "2018-04-26T10:06:28+00:00"
         },
         {
+=======
+>>>>>>> 6c4bcacf8160131a3881105f3aa6041c86f4b965
             "name": "symfony/process",
             "version": "v4.1.0",
             "source": {
@@ -2409,6 +2422,7 @@
             "time": "2017-11-27T11:13:29+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "tymon/jwt-auth",
             "version": "0.5.12",
             "source": {
@@ -2472,6 +2486,8 @@
             "time": "2017-06-07T21:32:02+00:00"
         },
         {
+=======
+>>>>>>> 6c4bcacf8160131a3881105f3aa6041c86f4b965
             "name": "vlucas/phpdotenv",
             "version": "v2.4.0",
             "source": {
