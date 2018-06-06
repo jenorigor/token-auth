@@ -11,6 +11,13 @@
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('api/login', function () {
+    return view('welcome');
+});
+
+Route::post('api/login', 'authcontroller@login' )->middleware('cors');
