@@ -20,6 +20,7 @@ class authcontroller extends Controller
    		 
         $factory = JWTFactory::addClaims([
             'sub' => env('API_ID'),
+            'username' => $credentials['username'],
         ]);
 
         $payload = $factory->make();

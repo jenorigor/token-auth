@@ -21,3 +21,4 @@ Route::get('api/login', function () {
 });
 
 Route::post('api/login', 'authcontroller@login' )->middleware('cors');
+Route::get('api/getprofile', 'profilecontroller@getprofile' )->middleware('cors');
