@@ -17,13 +17,20 @@ class authcontroller extends Controller
    		$credentials = $request->only('username', 'password');
 
    		if($credentials['username'] == 'admin' && $credentials['password'] == 'admin') {
-   			
-			return response()->json(['success'=> true]);
+   		 
+        $factory = JWTFactory::addClaims([
+            'sub' => env('API_ID'),
+        ]);
+
+        $payload = $factory->make();
+
+        $token = JWTAuth::encode($payload);
+
+			  return response()->json(['success'=> true , 'token' => "{$token}"]);
 
    		}
 
    		else return response()->json(['success'=> false]);
-
 
 
    	}
