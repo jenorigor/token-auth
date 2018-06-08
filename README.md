@@ -1,5 +1,5 @@
 # token-auth
-A headless backend code for a token-based login application built on Laravel 5 PHP. This works well with https://github.com/jenorigor/authenticate as a frontend and makes use of jwt (https://github.com/tymondesigns/jwt-auth) for authentication and token generation.
+A headless backend code for a token-based login application built on Laravel 5 PHP. This works well with https://github.com/jenorigor/authenticate (frontend code) and makes use of jwt (https://github.com/tymondesigns/jwt-auth) for authentication and token generation.
 
 ## Installation
 Pre-requisites:
